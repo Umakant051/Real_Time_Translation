@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Language Translator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Real-Time Language Translator</h2>
+    <textarea id="inputText" placeholder="Enter text here..."></textarea>
+    
+    <label>Select Target Language:</label>
+    <select id="targetLanguage">
+        {% for code, name in languages.items() %}
+            <option value="{{ code }}">{{ name }}</option>
+        {% endfor %}
+    </select>
+
+    <button onclick="translateText()">Translate</button>
+
+    <h3>Translation Output:</h3>
+    <p id="translatedText"></p>
+    <audio id="audioPlayer" controls></audio>
+
+    <script>
+        function translateText() {
+            let text = document.getElementById('inputText').value;
+            let targetLang = document.getElementById('targetLanguage').value;
+
+            fetch('/translate', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text: text, target_language: targetLang })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.translated_text) {
+                    document.getElementById('translatedText').innerText = data.translated_text;
+                    document.getElementById('audioPlayer').src = data.audio_url;
+                } else {
+                    alert('Error: ' + data.error);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
