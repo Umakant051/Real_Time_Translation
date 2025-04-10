@@ -1,9 +1,11 @@
-Flask
-speechrecognition
-pyaudio
-googletrans==4.0.0-rc1
-gtts
-pygame
 tensorflow
 numpy
+flask
+SpeechRecognition
+pyaudio
+googletrans==4.0.0rc1
+gtts
+pygame
+requests
+
 
