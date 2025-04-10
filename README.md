@@ -4,11 +4,20 @@ This project performs **real-time translation of speech and text** using Neural 
 
 ## 🚀 Features
 
-- 🎤 Real-time speech input (microphone)
-- 🔁 Translation using `googletrans`
-- 🗣️ Speech output with `gTTS` and `pygame`
-- 🧠 NMT-based translation powered by TensorFlow
-- 🌐 Web interface built using Flask
+- 🎤 Real-Time **Speech Recognition** (Terminal)
+- 📝 **Text Input** (Terminal + Web)
+- 🔁 **Translation** using `googletrans` + NMT (`nmt_model.keras`)
+- 🗣️ **Speech Output** via `gTTS` and `pygame`
+- 💻 Web Interface using **Flask**
+- ⚙️ **Built entirely using**: Python IDLE, CMD Prompt, Notepad, and Chrome — no IDEs!
+
+## ⚙️ Input/Output Capabilities
+
+| Mode          | Input Type       | Output Type             |
+|---------------|------------------|-------------------------|
+| **Terminal**  | ✅ Speech, ✅ Text | ✅ Text, ✅ Speech  |
+| **Web App**   | ❌ Speech, ✅ Text | ✅ Text, ✅ Speech  |
+--------------------------------------------------------------
 
 ## 🛠️ Requirements
 
