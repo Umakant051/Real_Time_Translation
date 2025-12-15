@@ -19,6 +19,35 @@ This project performs **real-time translation of speech and text** using Neural 
 | **Web App**   | ❌ Speech, ✅ Text | ✅ Text, ✅ Speech  |
 --------------------------------------------------------------
 
+## Tech Stack / Libraries Used
+- **Python Libraries:** PyAudio, SpeechRecognition, gTTS, Pygame, Flask, os, sys, datetime, TensorFlow, Keras, numpy  
+- **APIs:** Google Web Speech API, Google Translate API  
+- **Frontend:** HTML, CSS  
+- **Tools:** Python IDLE, Notepad, Chrome, CMD Prompt
+
+
+## Setup Instructions
+1. Clone the repository:  
+```bash
+git clone https://github.com/Umakant051/Real_Time_Translation.git
+
+2. Navigate to the project folder and create a virtual environment:
+cd Real_Time_Translation
+python -m venv env
+env\Scripts\activate   # Windows
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+4. Terminal Mode:
+python real_time_translation.py
+
+5. Web Interface Mode:
+cd Backend
+python app.py
+
+Open http://127.0.0.1:5000/ in a browser
+
 ## 🛠️ Requirements
 
 Install all dependencies with:
