@@ -33,7 +33,7 @@ This project performs **real-time translation of speech and text** using Neural 
 3. Navigate to the project folder and create a virtual environment:
   cd Real_Time_Translation
   python -m venv env
-  env\Scripts\activate   # Windows
+  env\Scripts\activate               # Windows
 
 4. Install dependencies:
    pip install -r requirements.txt
@@ -45,7 +45,7 @@ This project performs **real-time translation of speech and text** using Neural 
    cd Backend
    python app.py
 
-Open http://127.0.0.1:5000/ in a browser
+   Open http://127.0.0.1:5000/ in a browser
 
 ## 🛠️ Requirements
 Install all dependencies with:
