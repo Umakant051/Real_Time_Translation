@@ -48,7 +48,8 @@ This project performs **real-time translation of speech and text** using Neural 
 
 7. Run Web Interface Mode: 
   cd Backend
-  python app.py
+
+      python app.py
 
       Open http://127.0.0.1:5000/ in a browser
 
