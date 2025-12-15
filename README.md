@@ -35,17 +35,17 @@ This project performs **real-time translation of speech and text** using Neural 
   cd Real_Time_Translation
   python -m venv env
 
-3. Activate the virtual environment
+3. Activate the virtual environment: 
   env\Scripts\activate   # For Windows
   source env/bin/activate   # For Linux/Mac
 
-4. Install the required dependencies
+4. Install the required dependencies: 
   pip install -r requirements.txt
 
-5. Run Terminal (CMD) Mode
+5. Run Terminal (CMD) Mode: 
   python real_time_translation.py
 
-6. Run Web Interface Mode
+6. Run Web Interface Mode: 
   cd Backend
   python app.py
 
