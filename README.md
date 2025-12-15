@@ -34,7 +34,7 @@ This project performs **real-time translation of speech and text** using Neural 
 2. Navigate to the project folder and create a virtual environment:
   cd Real_Time_Translation
 
-  python -m venv env
+      python -m venv env
 
 4. Activate the virtual environment: 
   env\Scripts\activate   # For Windows
