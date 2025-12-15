@@ -31,21 +31,22 @@ This project performs **real-time translation of speech and text** using Neural 
 1. **Clone the repository:**  
   git clone https://github.com/Umakant051/Real_Time_Translation.git
 
-2. Navigate to the project folder and create a virtual environment
+2. Navigate to the project folder and create a virtual environment:
   cd Real_Time_Translation
+
   python -m venv env
 
-3. Activate the virtual environment: 
+4. Activate the virtual environment: 
   env\Scripts\activate   # For Windows
   source env/bin/activate   # For Linux/Mac
 
-4. Install the required dependencies: 
+5. Install the required dependencies: 
   pip install -r requirements.txt
 
-5. Run Terminal (CMD) Mode: 
+6. Run Terminal (CMD) Mode: 
   python real_time_translation.py
 
-6. Run Web Interface Mode: 
+7. Run Web Interface Mode: 
   cd Backend
   python app.py
 
