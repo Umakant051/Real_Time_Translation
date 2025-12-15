@@ -29,7 +29,6 @@ This project performs **real-time translation of speech and text** using Neural 
 ## Setup Instructions
 
 1. **Clone the repository:**  
-```bash
 git clone https://github.com/Umakant051/Real_Time_Translation.git
 
 2. Navigate to the project folder and create a virtual environment
@@ -51,6 +50,8 @@ cd Backend
 python app.py
 
 Open http://127.0.0.1:5000/ in a browser
+
+
 ## 🛠️ Requirements
 Install all dependencies with:
 ```bash
