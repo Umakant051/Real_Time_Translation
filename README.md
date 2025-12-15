@@ -49,7 +49,7 @@ git clone https://github.com/Umakant051/Real_Time_Translation.git
   cd Backend
   python app.py
 
-  Open http://127.0.0.1:5000/ in a browser
+      Open http://127.0.0.1:5000/ in a browser
 
 
 ## 🛠️ Requirements
